@@ -23,7 +23,7 @@ host smtp.gmail.com
 from userAddress@gmail.com
 auth on
 tls on
-tls_trust_file /usr/share/ca-certificates/mozilla/Equifax_Secure_CA.crt
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
 user userAddress@gmail.com
 port 587
 
